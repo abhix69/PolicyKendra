@@ -57,7 +57,7 @@ Near Metro Piller No. 782 ,Dwarka More , Delhi 110059<br />India</p>
                   <Mail className="w-6 h-6 text-blue-600 mt-1" />
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold mb-1">Email Us</h3>
-                    <p className="text-gray-600">contact.policykendra@gmail.com</p>
+                    <p className="text-gray-600">contact@policykendra.in</p>
                   </div>
                 </div>
                 <div className="flex items-start">
