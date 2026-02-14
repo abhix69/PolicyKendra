@@ -18,70 +18,44 @@ function OurManagement() {
         </div>
       </div>
 
+      {/* Main Content */}
       <div className="py-16 bg-gradient-to-b from-purple-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
           {/* Founder Section */}
           <div className="mb-20 animate-slide-up">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="relative group">
                 <div className="overflow-hidden rounded-lg shadow-xl transform transition-all duration-300 group-hover:scale-105">
                   <img 
-                    src="https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/boss.jpg"
-                    alt="Anand Kumar"
+                    src="https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/co-founder.jpg"
+                    alt="Vidya Jha" 
                     className="w-[300px] h-[400px] object-contain mx-auto"
                   />
                 </div>
               </div>
+              
               <div>
-                <h2 className="text-4xl font-bold text-purple-800 mb-4">ANAND KUMAR</h2>
+                <h2 className="text-4xl font-bold text-purple-800 mb-4">VIDYA JHA</h2>
                 <p className="text-xl text-purple-600 mb-6">Founder</p>
                 <div className="prose prose-lg text-gray-600">
                   <p className="mb-4">
-                    With over two decades of experience in the insurance industry, Anand Kumar has been a pioneering force in revolutionizing how insurance services are delivered in India. His vision of making insurance accessible and understandable to everyone has been the driving force behind PolicyKendra's success.
+                    With over two decades of experience in the insurance industry, Vidya Jha has been a pioneering force in revolutionizing how insurance services are delivered in India.
                   </p>
                   <p className="mb-4">
-                    Under his leadership, PolicyKendra has grown from a small consultancy to one of the most trusted names in insurance advisory, serving thousands of satisfied clients across the country.
+                    Under leadership, PolicyKendra has grown from a small consultancy to one of the most trusted names in insurance advisory, serving thousands of satisfied clients across the country.
                   </p>
                   <p>
-                    His commitment to transparency, customer service, and innovative solutions has set new standards in the industry, earning him numerous accolades and recognition from leading insurance providers.
+                    The commitment to transparency, customer service, and innovative solutions has set new standards in the industry.
                   </p>
                 </div>
               </div>
-            </div>
-          </div>
+            </div> {/* End of Grid */}
+          </div> {/* End of Founder Section */}
 
-          {/* Co-Founder Section */}
-          <div className="animate-slide-up">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div className="order-2 md:order-1">
-                <h2 className="text-4xl font-bold text-purple-800 mb-4">VIDYA JHA</h2>
-                <p className="text-xl text-purple-600 mb-6">Co-Founder</p>
-                <div className="prose prose-lg text-gray-600">
-                  <p className="mb-4">
-                    Vidya Jha brings a wealth of expertise in risk management and customer relations to PolicyKendra. Her innovative approach to insurance solutions has helped countless families and businesses secure their future with confidence.
-                  </p>
-                  <p className="mb-4">
-                    As Co-Founder, she has been instrumental in developing PolicyKendra's comprehensive suite of insurance products and services, ensuring that each client receives personalized attention and tailored solutions.
-                  </p>
-                  <p>
-                    Her dedication to excellence and customer satisfaction has been crucial in establishing PolicyKendra as a leader in the insurance advisory sector.
-                  </p>
-                </div>
-              </div>
-              <div className="relative group order-1 md:order-2">
-                <div className="overflow-hidden rounded-lg shadow-xl transform transition-all duration-300 group-hover:scale-105">
-                  <img 
-                    src="https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/co-founder.jpg"
-                    alt="Vidya Jha"
-                    className="w-[300px] h-[400px] object-contain mx-auto"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+        </div> {/* End of Container */}
+      </div> {/* End of Gradient Section */}
+    </div> 
   );
 }
 
