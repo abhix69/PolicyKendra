@@ -28,10 +28,6 @@ function OurAchievement() {
       title: ''
     },
     {
-      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/1.jpg',
-      title: ''
-    },
-    {
       image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/2.jpg',
       title: ''
     },
