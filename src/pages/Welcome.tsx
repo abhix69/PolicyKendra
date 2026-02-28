@@ -9,8 +9,7 @@ function Welcome() {
 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa3x9ohHbvh0r8IRRgR6j-5Piy0ghESNmp4w&s',
 'https://assets.upstox.com/content/assets/images/logos/NSE_EQ%7CINE726G01019.png',
 'https://i.pinimg.com/736x/43/b6/b4/43b6b4a29c8ce1dc69409903ffc4925c.jpg',
-'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzoXFvZMVxCqmazwTYAT0TCkvPkejWjfsyAg&s',
-'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk3gV1PnoPepP5sNc9fpRcSuq-LopV16VzSw&s'
+'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzoXFvZMVxCqmazwTYAT0TCkvPkejWjfsyAg&s'
   ];
 
   return (
