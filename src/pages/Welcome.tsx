@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 
 function Welcome() {
   const partnerLogos = [
-    'https://content.jdmagicbox.com/comp/kolkata/d8/033pxx33.xx33.151127201519.k1d8/catalogue/pnb-metlife-insurance-kolkata-pnb-metlife-insurance-3cor2.jpg',
+    'https://github.com/abhix69/PolicyKendra/blob/main/images/ageas.png?raw=true',
+'https://content.jdmagicbox.com/comp/kolkata/d8/033pxx33.xx33.151127201519.k1d8/catalogue/pnb-metlife-insurance-kolkata-pnb-metlife-insurance-3cor2.jpg',
 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa3x9ohHbvh0r8IRRgR6j-5Piy0ghESNmp4w&s',
 'https://assets.upstox.com/content/assets/images/logos/NSE_EQ%7CINE726G01019.png',
 'https://i.pinimg.com/736x/43/b6/b4/43b6b4a29c8ce1dc69409903ffc4925c.jpg',
