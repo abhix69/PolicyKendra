@@ -4,7 +4,7 @@ function OurAchievement() {
   // Replace these URLs with your actual achievement photos
   const achievements = [
     {
-      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/33.jpg',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/1.jpg',
       title: ''
     },
     {
@@ -125,6 +125,10 @@ function OurAchievement() {
     },
     {
       image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/25.jpg',
+      title: ''
+    },
+    {
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/34.jpg',
       title: ''
     },
     {
