@@ -3,6 +3,7 @@ import React from 'react';
 function AssociatedBrands() {
   const insurancePartners = {
     life: [
+      { name: 'Ageas Federal', logo: 'https://github.com/abhix69/PolicyKendra/blob/main/images/ageas.png?raw=true' },
       { name: 'PNB MetLife', logo: 'https://content.jdmagicbox.com/comp/kolkata/d8/033pxx33.xx33.151127201519.k1d8/catalogue/pnb-metlife-insurance-kolkata-pnb-metlife-insurance-3cor2.jpg' },
       { name: 'Bajaj Allianz', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa3x9ohHbvh0r8IRRgR6j-5Piy0ghESNmp4w&s' },
       { name: 'ICICI Prudential', logo: 'https://assets.upstox.com/content/assets/images/logos/NSE_EQ%7CINE726G01019.png' },
@@ -19,7 +20,7 @@ function AssociatedBrands() {
     ],
     motor: [
       { name: 'Bajaj Allianz Car Insurance', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa3x9ohHbvh0r8IRRgR6j-5Piy0ghESNmp4w&s' },
-      { name: 'ICICI Lombard Car Insurance', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAcg3Nl-cdYWbKbFi0rJRo0xASHG5aCixCBg&s' },
+      { name: 'ICICI Lombard Car Insurance', logo: 'https://github.com/abhix69/PolicyKendra/blob/main/images/icicil.jpg?raw=true' },
       { name: 'Cholamandalam MS Car Insurance', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUA7Ur0Turi441GiVfuBGNch260XZrdEHSHA&s' }
     ]
   };
