@@ -34,7 +34,7 @@ function SocialMedia() {
             </a>
 
             <a 
-              href="https://www.instagram.com/policykendra.store/" 
+              href="https://www.instagram.com/policykendra.in/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="group bg-gray-50 p-8 rounded-lg hover:bg-pink-50 transition-all duration-300 animate-slide-up"
