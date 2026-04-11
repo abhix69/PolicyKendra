@@ -4,12 +4,12 @@ import { Helmet } from 'react-helmet-async';
 
 function Welcome() {
   const partnerLogos = [
-    '/images/ageas.webp',
-    '/images/pnb.webp',
-    '/images/icicip.webp',
-    '/images/bajaj.webp',
-    '/images/max.webp',
-    '/images/tata.webp'
+    'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/ageas.webp',
+    'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/pnb.webp',
+    'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/icicip.webp',
+    'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/bajaj.webp',
+    'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/max.webp',
+    'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/tata.webp'
   ];
 
   return (
