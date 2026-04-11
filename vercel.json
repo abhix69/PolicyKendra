@@ -1,21 +1,4 @@
 {
-  "redirects": [
-    {
-      "source": "/management",
-      "destination": "/our-management",
-      "statusCode": 301
-    },
-    {
-      "source": "/brands",
-      "destination": "/associated-brands",
-      "statusCode": 301
-    },
-    {
-      "source": "/achievement",
-      "destination": "/our-achievement",
-      "statusCode": 301
-    }
-  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
   ]
