@@ -1,25 +1,25 @@
 function AssociatedBrands() {
   const insurancePartners = {
     life: [
-      { name: 'Ageas Federal', logo: '/images/ageas.webp' },
-      { name: 'PNB MetLife', logo: '/images/pnb.webp' },
-      { name: 'Bajaj Allianz', logo: '/images/bajaj.webp' },
-      { name: 'ICICI Prudential', logo: '/images/icicip.webp' },
-      { name: 'HDFC Life', logo: '/images/hdfclife.webp' },
-      { name: 'Tata AIA', logo: '/images/tata.webp' },
-      { name: 'Max Life', logo: '/images/max.webp' }
+      { name: 'Ageas Federal', logo: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/ageas.webp' },
+      { name: 'PNB MetLife', logo: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/pnb.webp' },
+      { name: 'Bajaj Allianz', logo: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/bajaj.webp' },
+      { name: 'ICICI Prudential', logo: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/icicip.webp' },
+      { name: 'HDFC Life', logo: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/hdfclife.webp' },
+      { name: 'Tata AIA', logo: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/tata.webp' },
+      { name: 'Max Life', logo: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/max.webp' }
     ],
     health: [
-      { name: 'Niva Bupa', logo: '/images/niva.webp' },
-      { name: 'Care Health', logo: '/images/car.webp' },
-      { name: 'Star Health', logo: '/images/star.webp' },
-      { name: 'HDFC ERGO', logo: '/images/hdfcergo.webp' },
-      { name: 'ICICI Lombard', logo: '/images/icicil.webp' }
+      { name: 'Niva Bupa', logo: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/niva.webp' },
+      { name: 'Care Health', logo: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/car.webp' },
+      { name: 'Star Health', logo: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/star.webp' },
+      { name: 'HDFC ERGO', logo: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/hdfcergo.webp' },
+      { name: 'ICICI Lombard', logo: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/icicil.webp' }
     ],
     motor: [
-      { name: 'Bajaj Allianz Car Insurance', logo: '/images/bajaj.webp' },
-      { name: 'ICICI Lombard Car Insurance', logo: '/images/icicil.webp' },
-      { name: 'Cholamandalam MS Car Insurance', logo: '/images/chola.webp' }
+      { name: 'Bajaj Allianz Car Insurance', logo: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/bajaj.webp' },
+      { name: 'ICICI Lombard Car Insurance', logo: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/icicil.webp' },
+      { name: 'Cholamandalam MS Car Insurance', logo: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/chola.webp' }
     ]
   };
 
