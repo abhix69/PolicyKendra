@@ -1,64 +1,64 @@
-import React from 'react';
-
 function AssociatedBrands() {
   const insurancePartners = {
     life: [
-      { name: 'Ageas Federal', logo: 'https://github.com/abhix69/PolicyKendra/blob/main/images/ageas.png?raw=true' },
-      { name: 'PNB MetLife', logo: 'https://content.jdmagicbox.com/comp/kolkata/d8/033pxx33.xx33.151127201519.k1d8/catalogue/pnb-metlife-insurance-kolkata-pnb-metlife-insurance-3cor2.jpg' },
-      { name: 'Bajaj Allianz', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa3x9ohHbvh0r8IRRgR6j-5Piy0ghESNmp4w&s' },
-      { name: 'ICICI Prudential', logo: 'https://assets.upstox.com/content/assets/images/logos/NSE_EQ%7CINE726G01019.png' },
-      { name: 'HDFC Life', logo: 'https://i.pinimg.com/736x/43/b6/b4/43b6b4a29c8ce1dc69409903ffc4925c.jpg' },
-      { name: 'Tata AIA', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzoXFvZMVxCqmazwTYAT0TCkvPkejWjfsyAg&s' },
-      { name: 'Max Life', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk3gV1PnoPepP5sNc9fpRcSuq-LopV16VzSw&s' }
+      { name: 'Ageas Federal', logo: '/images/ageas.webp' },
+      { name: 'PNB MetLife', logo: '/images/pnb.webp' },
+      { name: 'Bajaj Allianz', logo: '/images/bajaj.webp' },
+      { name: 'ICICI Prudential', logo: '/images/icicip.webp' },
+      { name: 'HDFC Life', logo: '/images/hdfclife.webp' },
+      { name: 'Tata AIA', logo: '/images/tata.webp' },
+      { name: 'Max Life', logo: '/images/max.webp' }
     ],
     health: [
-      { name: 'Niva Bupa', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4mxRtoPUYG8uyC3DekkrQH-g8hHQvAVJw5Q&s' },
-      { name: 'Care Health', logo: 'https://e7.pngegg.com/pngimages/579/831/png-clipart-vehicle-insurance-home-insurance-insurance-agent-health-insurance-others-miscellaneous-logo.png' },
-      { name: 'Star Health', logo: 'https://play-lh.googleusercontent.com/JEcrbamGiWvHjDBubpjIfDAZ5-aqy-z1oDXag4XSDptHSYtGftWcH_sfENba-lSlBQ' },
-      { name: 'HDFC ERGO', logo: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/HDFC-Ergo-logo.png' },
-      { name: 'ICICI Lombard', logo: 'https://yt3.googleusercontent.com/Cb4yUkaUQO0wQXGMLARg5mVG_gP7NplJfvQYLiOPftml2tAgq1ChvTcEKBIpoCzXdYteXZ0ICA=s900-c-k-c0x00ffffff-no-rj' }
+      { name: 'Niva Bupa', logo: '/images/niva.webp' },
+      { name: 'Care Health', logo: '/images/car.webp' },
+      { name: 'Star Health', logo: '/images/star.webp' },
+      { name: 'HDFC ERGO', logo: '/images/hdfcergo.webp' },
+      { name: 'ICICI Lombard', logo: '/images/icicil.webp' }
     ],
     motor: [
-      { name: 'Bajaj Allianz Car Insurance', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa3x9ohHbvh0r8IRRgR6j-5Piy0ghESNmp4w&s' },
-      { name: 'ICICI Lombard Car Insurance', logo: 'https://github.com/abhix69/PolicyKendra/blob/main/images/icicil.jpg?raw=true' },
-      { name: 'Cholamandalam MS Car Insurance', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUA7Ur0Turi441GiVfuBGNch260XZrdEHSHA&s' }
+      { name: 'Bajaj Allianz Car Insurance', logo: '/images/bajaj.webp' },
+      { name: 'ICICI Lombard Car Insurance', logo: '/images/icicil.webp' },
+      { name: 'Cholamandalam MS Car Insurance', logo: '/images/chola.webp' }
     ]
   };
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen animate-fade-in">
       {/* Hero Section */}
       <div 
-        className="relative h-[400px] bg-cover bg-center"
+        className="relative min-h-[360px] md:min-h-[420px] bg-cover bg-center"
         style={{
-          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")'
+          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80&fm=webp")'
         }}
       >
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-center text-white px-4 animate-fade-in">
-            <h1 className="text-5xl font-bold mb-4">Our Trusted Partners</h1>
-            <p className="text-xl max-w-2xl mx-auto">Collaborating with industry leaders to provide you the best insurance solutions</p>
+        <div className="absolute inset-0 flex items-center">
+          <div className="site-container text-white px-4 animate-fade-in flex flex-col gap-4 md:gap-6 text-center md:text-left items-center md:items-start">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">Our Trusted Partners</h1>
+            <p className="text-sm md:text-base leading-relaxed max-w-xl">Collaborating with industry leaders to provide you the best insurance solutions</p>
           </div>
         </div>
       </div>
 
-      <div className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="py-12 md:py-20 bg-white">
+        <div className="site-container">
           {/* Life Insurance Partners */}
           <div className="mb-16 animate-slide-up">
             <h2 className="text-3xl font-bold text-center mb-12 bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text">
               Life Insurance Partners
             </h2>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {insurancePartners.life.map((partner, index) => (
                 <div key={index} className="group">
-                  <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform group-hover:scale-105">
+                  <div className="bg-white p-4 md:p-6 rounded-lg shadow-md md:hover:shadow-xl transition-all duration-300 transform md:group-hover:scale-105">
                     <img 
                       src={partner.logo} 
                       alt={partner.name}
-                      className="w-16 h-16 mx-auto mb-4 object-contain transition-all duration-300 group-hover:scale-110" 
+                      className="w-16 h-16 mx-auto mb-4 object-contain transition-all duration-300 md:group-hover:scale-110" 
+                      loading="lazy"
+                      decoding="async"
                     />
-                    <p className="text-center font-medium text-gray-800">{partner.name}</p>
+                    <p className="text-center text-sm md:text-base font-medium text-gray-800">{partner.name}</p>
                   </div>
                 </div>
               ))}
@@ -70,16 +70,18 @@ function AssociatedBrands() {
             <h2 className="text-3xl font-bold text-center mb-12 bg-gradient-to-r from-green-600 to-teal-600 text-transparent bg-clip-text">
               Health Insurance Partners
             </h2>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {insurancePartners.health.map((partner, index) => (
                 <div key={index} className="group">
-                  <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform group-hover:scale-105">
+                  <div className="bg-white p-4 md:p-6 rounded-lg shadow-md md:hover:shadow-xl transition-all duration-300 transform md:group-hover:scale-105">
                     <img 
                       src={partner.logo} 
                       alt={partner.name}
-                      className="w-16 h-16 mx-auto mb-4 object-contain transition-all duration-300 group-hover:scale-110" 
+                      className="w-16 h-16 mx-auto mb-4 object-contain transition-all duration-300 md:group-hover:scale-110" 
+                      loading="lazy"
+                      decoding="async"
                     />
-                    <p className="text-center font-medium text-gray-800">{partner.name}</p>
+                    <p className="text-center text-sm md:text-base font-medium text-gray-800">{partner.name}</p>
                   </div>
                 </div>
               ))}
@@ -94,13 +96,15 @@ function AssociatedBrands() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {insurancePartners.motor.map((partner, index) => (
                 <div key={index} className="group">
-                  <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform group-hover:scale-105">
+                  <div className="bg-white p-4 md:p-6 rounded-lg shadow-md md:hover:shadow-xl transition-all duration-300 transform md:group-hover:scale-105">
                     <img 
                       src={partner.logo} 
                       alt={partner.name}
-                      className="w-16 h-16 mx-auto mb-4 object-contain transition-all duration-300 group-hover:scale-110" 
+                      className="w-16 h-16 mx-auto mb-4 object-contain transition-all duration-300 md:group-hover:scale-110" 
+                      loading="lazy"
+                      decoding="async"
                     />
-                    <p className="text-center font-medium text-gray-800">{partner.name}</p>
+                    <p className="text-center text-sm md:text-base font-medium text-gray-800">{partner.name}</p>
                   </div>
                 </div>
               ))}

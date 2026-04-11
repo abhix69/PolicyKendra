@@ -1,0 +1,6 @@
+# Allow all robots to crawl all pages
+User-agent: *
+Allow: /
+
+# Reference to sitemap
+Sitemap: https://www.policykendra.in/sitemap.xml

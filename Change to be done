@@ -1,0 +1,36 @@
+1. ❌ 404 Errors Fix karna
+Jo pages exist nahi karte → unhe proper 404 status code dena
+Ya important ho toh redirect (301) karna
+2. 📄 Sitemap banana
+sitemap.xml create/update karna
+Usko Google Search Console me submit karna
+3. 🏷️ Page Titles fix karna
+Har page ka unique title likhna
+Keywords add karna (SEO ke liye)
+4. ✍️ Meta Description add karna
+Har page me proper description likhna (Google me show hota hai)
+5. 🔗 Canonical Tag set karna
+Duplicate pages ko avoid karna
+<link rel="canonical"> properly set karna
+6. 🧱 Headings (H1, H2) set karna
+Har page me:
+1 H1
+Proper H2, H3 structure
+7. 🧠 Schema Markup add karna
+Website ka type batana (Google ko samajhne ke liye)
+Example:
+Local Business
+Insurance schema
+8. ⚡ Website Speed improve karna
+Images compress karna
+Code optimize karna
+Load time fast karna
+9. 🤖 robots.txt banana
+Google ko batana:
+Kaunsa page crawl kare
+Kaunsa ignore kare
+10. 📱 OpenGraph Tags add karna
+Jab link share ho (Facebook/WhatsApp):
+Title
+Image
+Description sahi aaye
