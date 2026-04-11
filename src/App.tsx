@@ -16,21 +16,35 @@ const LifeInsurance = lazy(() => import('./pages/LifeInsurance'));
 const MotorInsurance = lazy(() => import('./pages/MotorInsurance'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
+const routePaths = {
+  home: '/',
+  about: '/about',
+  insurance: '/insurance',
+  management: '/our-management',
+  contact: '/contact',
+  social: '/social',
+  brands: '/associated-brands',
+  achievement: '/our-achievements',
+  healthInsurance: '/health-insurance',
+  lifeInsurance: '/life-insurance',
+  motorInsurance: '/motor-insurance'
+} as const;
+
 const navItems = [
-  { to: '/', label: 'Welcome' },
-  { to: '/about', label: 'About Us' },
-  { to: '/insurance', label: 'Insurance' },
-  { to: '/management', label: 'Our Management' },
-  { to: '/contact', label: 'Contact' },
-  { to: '/social', label: 'Social Media' },
-  { to: '/brands', label: 'Associated Brands' },
-  { to: '/achievement', label: 'Our Achievements' }
+  { to: routePaths.home, label: 'Welcome' },
+  { to: routePaths.about, label: 'About Us' },
+  { to: routePaths.insurance, label: 'Insurance' },
+  { to: routePaths.management, label: 'Our Management' },
+  { to: routePaths.contact, label: 'Contact' },
+  { to: routePaths.social, label: 'Social Media' },
+  { to: routePaths.brands, label: 'Associated Brands' },
+  { to: routePaths.achievement, label: 'Our Achievements' }
 ];
 
 const insuranceSubItems = [
-  { to: '/health-insurance', label: 'Health Insurance' },
-  { to: '/life-insurance', label: 'Life Insurance' },
-  { to: '/motor-insurance', label: 'Motor Insurance' }
+  { to: routePaths.healthInsurance, label: 'Health Insurance' },
+  { to: routePaths.lifeInsurance, label: 'Life Insurance' },
+  { to: routePaths.motorInsurance, label: 'Motor Insurance' }
 ];
 
 function ScrollToTop() {
@@ -53,10 +67,10 @@ function AppContent() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { pathname } = useLocation();
   const isInsuranceActive =
-    pathname === '/insurance' ||
-    pathname === '/health-insurance' ||
-    pathname === '/life-insurance' ||
-    pathname === '/motor-insurance';
+    pathname === routePaths.insurance ||
+    pathname === routePaths.healthInsurance ||
+    pathname === routePaths.lifeInsurance ||
+    pathname === routePaths.motorInsurance;
 
   useEffect(() => {
     setIsMenuOpen(false);
@@ -81,7 +95,7 @@ function AppContent() {
       <nav className="bg-white/95 backdrop-blur shadow-md fixed w-full z-50 border-b border-gray-100">
         <div className="site-container">
           <div className="flex justify-between h-16 items-center gap-4">
-            <NavLink to="/" className="flex items-center shrink-0">
+            <NavLink to={routePaths.home} className="flex items-center shrink-0">
               <img
                 src={companyLogo}
                 alt="PolicyKendra company logo"
@@ -121,7 +135,7 @@ function AppContent() {
                     </div>
                   </div>
                 ) : (
-                  <NavLink key={item.to} to={item.to} className={desktopNavClass} end={item.to === '/'}>
+                  <NavLink key={item.to} to={item.to} className={desktopNavClass} end={item.to === routePaths.home}>
                     {item.label}
                   </NavLink>
                 )
@@ -211,7 +225,7 @@ function AppContent() {
                 key={item.to}
                 to={item.to}
                 className={mobileNavClass}
-                end={item.to === '/'}
+                end={item.to === routePaths.home}
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.label}
@@ -229,18 +243,18 @@ function AppContent() {
             </div>
           }
         >
-          <Routes key={pathname}>
-            <Route path="/" element={<Welcome />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/insurance" element={<Insurance />} />
-            <Route path="/management" element={<OurManagement />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/social" element={<SocialMedia />} />
-            <Route path="/brands" element={<AssociatedBrands />} />
-            <Route path="/achievement" element={<OurAchievement />} />
-            <Route path="/health-insurance" element={<HealthInsurance />} />
-            <Route path="/life-insurance" element={<LifeInsurance />} />
-            <Route path="/motor-insurance" element={<MotorInsurance />} />
+          <Routes>
+            <Route path={routePaths.home} element={<Welcome />} />
+            <Route path={routePaths.about} element={<About />} />
+            <Route path={routePaths.insurance} element={<Insurance />} />
+            <Route path={routePaths.management} element={<OurManagement />} />
+            <Route path={routePaths.contact} element={<Contact />} />
+            <Route path={routePaths.social} element={<SocialMedia />} />
+            <Route path={routePaths.brands} element={<AssociatedBrands />} />
+            <Route path={routePaths.achievement} element={<OurAchievement />} />
+            <Route path={routePaths.healthInsurance} element={<HealthInsurance />} />
+            <Route path={routePaths.lifeInsurance} element={<LifeInsurance />} />
+            <Route path={routePaths.motorInsurance} element={<MotorInsurance />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>
