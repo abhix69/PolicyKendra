@@ -47,7 +47,7 @@ function OurManagement() {
               <div className="relative group order-1 md:order-2">
                 <div className="aspect-square overflow-hidden rounded-2xl bg-white shadow-xl ring-1 ring-black/5 transform transition-all duration-300 md:group-hover:scale-105">
                   <img 
-                    src="/images/founder.webp"
+                    src="https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/founder.webp"
                     alt="Neeraj Chaudhary" 
                     className="h-full w-full object-contain object-center p-4"
                     loading="lazy"
@@ -66,7 +66,7 @@ function OurManagement() {
               <div className="relative group">
                 <div className="aspect-square overflow-hidden rounded-2xl bg-white shadow-xl ring-1 ring-black/5 transform transition-all duration-300 md:group-hover:scale-105">
                   <img 
-                    src="/images/co-founder.webp"
+                    src="https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/co-founder.webp"
                     alt="Vidya Jha" 
                     className="h-full w-full object-contain object-center p-4"
                     loading="lazy"
