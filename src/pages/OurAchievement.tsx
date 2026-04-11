@@ -1,135 +1,135 @@
 function OurAchievement() {
   const achievements = [
     {
-      image: '/images/1.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/1.webp',
       title: ''
     },
     {
-      image: '/images/28.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/28.webp',
       title: ''
     },
     {
-      image: '/images/29.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/29.webp',
       title: ''
     },
     {
-      image: '/images/30.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/30.webp',
       title: ''
     },
     {
-      image: '/images/31.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/31.webp',
       title: ''
     },
     {
-      image: '/images/32.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/32.webp',
       title: ''
     },
     {
-      image: '/images/2.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/2.webp',
       title: ''
     },
     {
-      image: '/images/3.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/3.webp',
       title: ''
     },
     {
-      image: '/images/4.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/4.webp',
       title: ''
     },
     {
-      image: '/images/5.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/5.webp',
       title: ''
     },
     {
-      image: '/images/6.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/6.webp',
       title: ''
     },
     {
-      image: '/images/7.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/7.webp',
       title: ''
     },
     {
-      image: '/images/8.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/8.webp',
       title: ''
     },
     {
-      image: '/images/9.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/9.webp',
       title: ''
     },
     {
-      image: '/images/10.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/10.webp',
       title: ''
     },
     {
-      image: '/images/11.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/11.webp',
       title: ''
     },
     {
-      image: '/images/12.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/12.webp',
       title: ''
     },
     {
-      image: '/images/13.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/13.webp',
       title: ''
     },
     {
-      image: '/images/14.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/14.webp',
       title: ''
     },
     {
-      image: '/images/15.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/15.webp',
       title: ''
     },
     {
-      image: '/images/16.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/16.webp',
       title: ''
     },
     {
-      image: '/images/17.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/17.webp',
       title: ''
     },
     {
-      image: '/images/18.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/18.webp',
       title: ''
     },
     {
-      image: '/images/19.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/19.webp',
       title: ''
     },
     {
-      image: '/images/20.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/20.webp',
       title: ''
     },
     {
-      image: '/images/21.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/21.webp',
       title: ''
     },
     {
-      image: '/images/22.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/22.webp',
       title: ''
     },
     {
-      image: '/images/23.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/23.webp',
       title: ''
     },
     {
-      image: '/images/24.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/24.webp',
       title: ''
     },
     {
-      image: '/images/25.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/25.webp',
       title: ''
     },
     {
-      image: '/images/34.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/34.webp',
       title: ''
     },
     {
-      image: '/images/26.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/26.webp',
       title: ''
     },
     {
-      image: '/images/27.webp',
+      image: 'https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/27.webp',
       title: ''
     }
   ];
