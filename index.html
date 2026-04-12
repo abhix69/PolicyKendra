@@ -4,10 +4,20 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/webp" href="https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/logo.webp" />
     <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/logo.webp" />
+    <link rel="manifest" href="/manifest.json" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-      link[rel="icon"], link[rel="apple-touch-icon"] {
+      :root {
+        --favicon-size: 192px;
+      }
+      html {
+        --mask: radial-gradient(circle, white 99%, transparent 100%);
+        -webkit-mask-image: var(--mask);
+        mask-image: var(--mask);
+      }
+      link[rel="apple-touch-icon"] {
         border-radius: 50%;
+        display: none;
       }
     </style>
     <script type="application/ld+json">
