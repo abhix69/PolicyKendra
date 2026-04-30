@@ -23,6 +23,37 @@ function OurManagement() {
       <div className="py-12 md:py-20 bg-gradient-to-b from-purple-50 to-white">
         <div className="site-container">
 
+          {/* ANAND KUMAR Section (NOW FIRST) */}
+          <div className="mb-20 animate-slide-up">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
+
+              <div className="order-2 md:order-1">
+                <h2 className="text-4xl font-bold text-purple-800 mb-4">ANAND KUMAR</h2>
+                <p className="text-base md:text-lg text-purple-600 mb-6">Director & Founder</p>
+
+                <div className="text-sm md:text-base leading-relaxed text-gray-600 max-w-xl space-y-4">
+                  <p className="mb-4">
+                    Anand Kumar is driven by a clear vision to simplify financial decision-making and make quality advisory accessible to every client. Through PolicyKendra, he has built a platform rooted in trust, transparency, and long-term value, helping individuals and businesses navigate financial choices with confidence.
+                  </p>
+                </div>
+              </div>
+
+              <div className="relative group order-1 md:order-2">
+                <div className="aspect-square overflow-hidden rounded-2xl bg-white shadow-xl ring-1 ring-black/5 transform transition-all duration-300 md:group-hover:scale-105">
+                  <img 
+                    src="https://raw.githubusercontent.com/abhix6/PolicyKendra/main/images/anand.webp"
+                    alt="Anand Kumar" 
+                    className="h-full w-full object-contain object-center p-4"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
           {/* Neeraj Chaudhary Section (NOW FIRST) */}
           <div className="mb-20 animate-slide-up">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
