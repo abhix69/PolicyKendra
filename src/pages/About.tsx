@@ -13,7 +13,7 @@ function About() {
         <div className="absolute inset-0 flex items-center">
           <div className="site-container text-white px-4 animate-fade-in flex flex-col gap-4 md:gap-6 text-center md:text-left items-center md:items-start">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">About PolicyKendra</h1>
-            <p className="text-sm md:text-base leading-relaxed max-w-xl">Your trusted partner in navigating the complex world of insurance since 2010</p>
+            <p className="text-sm md:text-base leading-relaxed max-w-xl">PolicyKendra is actively serving customers in Delhi and nearby areas with expert insurance guidance.</p>
           </div>
         </div>
       </div>
